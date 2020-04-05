@@ -197,94 +197,10 @@ F 3 "~" H 8700 3850 50  0001 C CNN
 	1    8700 3850
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Small R55
-U 1 1 5E938A76
-P 1550 2300
-F 0 "R55" V 1450 2400 50  0000 C CNN
-F 1 "100" V 1450 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1550 2300 50  0001 C CNN
-F 3 "~" H 1550 2300 50  0001 C CNN
-	1    1550 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R56
-U 1 1 5E938F12
-P 1550 2500
-F 0 "R56" V 1450 2600 50  0000 C CNN
-F 1 "100" V 1450 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1550 2500 50  0001 C CNN
-F 3 "~" H 1550 2500 50  0001 C CNN
-	1    1550 2500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2350 2300 1650 2300
-Wire Wire Line
-	1650 2500 1750 2500
-Wire Wire Line
-	1750 2500 1750 2400
-Wire Wire Line
-	1750 2400 2350 2400
-$Comp
-L Device:C_Small C12
-U 1 1 5E93A3A4
-P 1100 2600
-F 0 "C12" H 1192 2646 50  0000 L CNN
-F 1 "100n" H 1192 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 2600 50  0001 C CNN
-F 3 "~" H 1100 2600 50  0001 C CNN
-	1    1100 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 5E93AF9F
-P 1100 2200
-F 0 "C11" H 1192 2246 50  0000 L CNN
-F 1 "100n" H 1192 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 2200 50  0001 C CNN
-F 3 "~" H 1100 2200 50  0001 C CNN
-	1    1100 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0116
-U 1 1 5E93B328
-P 1100 2700
-F 0 "#PWR0116" H 1100 2450 50  0001 C CNN
-F 1 "Earth" H 1100 2550 50  0001 C CNN
-F 2 "" H 1100 2700 50  0001 C CNN
-F 3 "~" H 1100 2700 50  0001 C CNN
-	1    1100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0117
-U 1 1 5E93B608
-P 1100 2100
-F 0 "#PWR0117" H 1100 1850 50  0001 C CNN
-F 1 "Earth" H 1100 1950 50  0001 C CNN
-F 2 "" H 1100 2100 50  0001 C CNN
-F 3 "~" H 1100 2100 50  0001 C CNN
-	1    1100 2100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 2300 1450 2300
-Wire Wire Line
-	1450 2500 1100 2500
-Text GLabel 1000 2500 0    50   Input ~ 0
+Text GLabel 2350 2400 0    50   Input ~ 0
 USET1
-Text GLabel 1000 2300 0    50   Input ~ 0
+Text GLabel 2350 2300 0    50   Input ~ 0
 USET0
-Wire Wire Line
-	1000 2300 1100 2300
-Connection ~ 1100 2300
-Wire Wire Line
-	1100 2500 1000 2500
-Connection ~ 1100 2500
 Text GLabel 2950 3150 3    50   Input ~ 0
 I2S0_WS
 $Comp

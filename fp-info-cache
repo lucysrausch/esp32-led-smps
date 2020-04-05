@@ -1,4 +1,4 @@
-16421361262450859
+16376688715983155
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44316,118 +44316,6 @@ single digit 7 segemnt red/green LED
 0
 10
 10
-FI
-T60404-N4641-X921
-
-
-0
-16
-16
-FP
-10pin with large holes
-
-
-0
-20
-10
-FP
-516_hole
-
-
-0
-0
-0
-FP
-3225
-3225
-3225
-0
-2
-2
-FP
-Arduino_Nano
-Through-hole-mounted NodeMCU 0.9
-nodemcu
-0
-30
-30
-FP
-NodeMCU_Amica_R2
-Through-hole-mounted NodeMCU 0.9
-nodemcu
-0
-30
-30
-FP
-Phoenix_3x
-
-
-0
-6
-3
-FP
-Phoenix_5x
-
-
-0
-10
-5
-FP
-Phoenix_10x
-
-
-0
-20
-10
-FP
-SO-6
-
-
-0
-5
-5
-FP
-SO6-4
-
-
-0
-4
-4
-FP
-Songle_relay
-
-
-0
-5
-5
-FP
-TSX-3225-SMD-XTAL
-
-
-0
-4
-4
-FP
-go_e_logo
-
-
-0
-0
-0
-FP
-go_e_logo2
-
-
-0
-0
-0
-FP
-minion_logo
-
-
-0
-0
-0
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
@@ -72274,146 +72162,48 @@ varistor SIOV
 0
 2
 2
-lib
-AC1020
-
-
+libs
+E75-2G4M10S
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 0
-3
-2
-lib
-AZEV132
-
-
+27
+27
+libs
+L_CommonMode_U.U_multi
+Wuerth, WE-CMB, Bauform M,
+CommonModeChoke Gleichtaktdrossel 
 0
-6
-6
-lib
-BLOCK
-
-
-0
-1
-0
-lib
-Converter_ACDC_MeanWell_IRM-20-xx_THT
-ACDC-Converter, 20W, Meanwell, IRM-20, THT http://www.meanwell.com/webapp/product/search.aspx?prod=IRM-20
-ACDC-Converter 20W   Meanwell IRM-20
-0
-6
+8
 4
-lib
-GCT_SIM8050-6-0-14-01-X_REVF
+libs
+Pulse_PH027NL
 
 
 0
 10
-6
-lib
-GCT_SIM8050-6-0-14-01-X_REVF_fixedpinnames
-
-
-0
 10
-6
-lib
-JUMPER-SOLDER-SMD
-
-
+libs
+WJ250B-3.5-2P
+Terminal Block WAGO 804-102, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 11.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-102 45Degree pitch 5mm size 11.5x15mm^2 drill 1.2mm pad 3mm
 0
 2
 2
-lib
-PCB-11
-
-
-0
-4
-1
-lib
-otter_SilkScreen
-
-
-0
-0
-0
-lib
-phoenix 1704994
-Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x02 2.54mm single row
-0
-2
-2
-lib
-phoenix_reed_new
-Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x02 2.54mm single row
-0
-2
-2
-lib
-power-bridge
-
-
+libs
+WJ250B-3.5-3P
+Terminal Block WAGO 804-102, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 11.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-102 45Degree pitch 5mm size 11.5x15mm^2 drill 1.2mm pad 3mm
 0
 3
-1
-lib
-we choke
-
-
+3
+libs
+WS2812D
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
 0
 4
 4
-mpcie
-7a1ef72
-
-
-0
-0
-0
-mpcie
-mpcie-full-card
-
-
-0
-60
-52
-mpcie
-mpcie-full-card-edit
-
-
-0
-52
-52
-mpcie
-mpcie-full-card-edit-longcontact
-
-
-0
-52
-52
-mpcie
-mpcie-half-card
-
-
-0
-56
-52
-mpcie
-mpcie-socket
-
-mpci, pci, pci express
-0
-60
-52
-mpcie
-mpcie-socket-clip
-
-mpci, pci, pci express
-0
-56
-52
 otter
 +
 
@@ -73016,6 +72806,13 @@ SSOP SO
 0
 8
 8
+otter
+Shilding
+
+
+0
+84
+1
 otter
 Symbol_Highvoltage_Type1_CopperTop_Small
 Symbol, Highvoltage, Type 1, Copper Top, Small,
