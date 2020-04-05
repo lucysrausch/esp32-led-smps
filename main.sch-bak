@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:led-multiott-cache
+LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -131,7 +131,7 @@ F 3 "~" H 8900 3850 50  0001 C CNN
 $EndComp
 Connection ~ 3750 3150
 $Comp
-L led-multiott-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib U2
+L main-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-led-multiott-rescue U2
 U 1 1 5BD0C29C
 P 3300 2100
 F 0 "U2" H 3275 3487 60  0000 C CNN
@@ -651,7 +651,7 @@ F 3 "" H 5250 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L led-multiott-rescue:TC2030-CTX-Tag-Connect-ESP32-otter P1
+L main-rescue:TC2030-CTX-Tag-Connect-ESP32-otter-led-multiott-rescue P1
 U 1 1 5EB6C3B7
 P 5350 1550
 F 0 "P1" H 5300 1350 40  0001 L CNN
