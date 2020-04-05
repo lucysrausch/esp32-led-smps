@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name e75-2g4m20s)(type Legacy)(uri ${KIPRJMOD}/libs/e75-2g4m20s.lib)(options "")(descr ""))
+  (lib (name led-multiott-rescue)(type Legacy)(uri ${KIPRJMOD}/led-multiott-rescue.lib)(options "")(descr ""))
+  (lib (name ph0270nl)(type Legacy)(uri ${KIPRJMOD}/libs/ph0270nl.lib)(options "")(descr ""))
+  (lib (name main-rescue)(type Legacy)(uri ${KIPRJMOD}/main-rescue.lib)(options "")(descr ""))
+)
